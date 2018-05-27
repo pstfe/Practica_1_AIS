@@ -21,7 +21,7 @@ import org.mockito.ArgumentCaptor;
 import es.codeurjc.ais.tictactoe.TicTacToeGame.EventType;
 import es.codeurjc.ais.tictactoe.TicTacToeGame.WinnerValue;
 
-public class TicTacToeGameTest1 {
+public class TicTacToeGameTest {
 	TicTacToeGame juego;
 	Player pl1, pl2;
 	Connection c1, c2;
