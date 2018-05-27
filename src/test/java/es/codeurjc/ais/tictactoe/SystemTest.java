@@ -18,7 +18,7 @@ public class SystemTest {
 	@BeforeClass
 	public static void setupClass() {
 		System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\Paula\\Documents\\GitHub\\Practica1_AIS\\src\\test\\java\\es\\codeurjc\\ais\\tictactoe\\chromedriver.exe");
+				"C:\\Users\\Paula\\Documents\\UNIVERSIDAD\\CUARTO\\ING.INFORMÁTICA\\AMPLIACIÓN INGENIERÍA DEL SOFTWARE\\tic-tac-toe-enunciado\\tic-tac-toe-enunciado\\src\\test\\java\\es\\codeurjc\\ais\\tictactoe\\chromedriver.exe");
 		WebApp.start();
 	} 
 	
