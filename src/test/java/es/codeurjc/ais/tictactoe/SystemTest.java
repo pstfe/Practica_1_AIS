@@ -18,7 +18,7 @@ public class SystemTest {
 	@BeforeClass
 	public static void setupClass() {
 		System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\Paula\\Documents\\UNIVERSIDAD\\CUARTO\\ING.INFORMÁTICA\\AMPLIACIÓN INGENIERÍA DEL SOFTWARE\\tic-tac-toe-enunciado\\tic-tac-toe-enunciado\\src\\test\\java\\es\\codeurjc\\ais\\tictactoe\\chromedriver.exe");
+				"C:\\Users\\Paula\\Documents\\GitHub\\Practica1_AIS\\src\\test\\java\\es\\codeurjc\\ais\\tictactoe\\chromedriver.exe");
 		WebApp.start();
 	} 
 	
@@ -88,9 +88,9 @@ public class SystemTest {
 		driver2.findElement(By.id("cell-7")).click();
 		//cada jugador va marcando las casillas
 		
-		Thread.sleep(3000);// se introduce para que haya tiempo suficiente para captar el mensaje
+		Thread.sleep(3500);// se introduce para que haya tiempo suficiente para captar el mensaje
 		String m1= driver1.switchTo().alert().getText();
-		Thread.sleep(3000);
+		Thread.sleep(3500);
 		String m2 = driver2.switchTo().alert().getText();
 		//se captan los mensajes que se reproducen en ambas sesiones
 		
